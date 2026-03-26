@@ -38,8 +38,8 @@ public class MainTest {
     @DisplayName("Point sınıf değişkenleri doğru tipte mi ?")
     @Test
     public void testPointTypes() {
-        assertThat(point.getX(), instanceOf(Integer.class));
-        assertThat(point.getY(), instanceOf(Integer.class));
+        assertThat(point.x(), instanceOf(Integer.class));
+        assertThat(point.y(), instanceOf(Integer.class));
     }
 
     @DisplayName("Parametre almayan distance methodu doğru çalışıyor mu ?")
